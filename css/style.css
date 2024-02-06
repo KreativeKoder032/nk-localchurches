@@ -1,3 +1,7 @@
+* {
+    font-family:'Times New Roman', Times, serif
+}
+
 
 h1 {
     color: #f00;
@@ -5,8 +9,4 @@ h1 {
 
 h1:hover {
     color: #00F;
-}
-
-body {
-    background-color: #fb0000d5;
 }

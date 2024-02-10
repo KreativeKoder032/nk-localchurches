@@ -1,5 +1,7 @@
 :root {
   --primary-color: gray;
+  --secondary-color: goldenrod;
+  --border-color: lightgray;
 }
 
 body {
@@ -8,7 +10,7 @@ body {
 
 .main-heading {
   padding: 2%;
-  background-color: gray;
+  background-color: var(--primary-color);
   border: 5px;
   border-style: inset;
   text-align: center;
@@ -45,17 +47,17 @@ body {
 
 .events-text {
   text-align: center;
-  background-color: goldenrod;
+  background-color: var(--secondary-color);
   padding: 0.5%;
   border: 5px;
-  border-color: lightgray;
+  border-color: var(--border-color);
   border-style: ridge;
 }
 
 #mass-times {
   display: inline-block;
   position: relative;
-  background-color: lightgray;
+  background-color: var(--border-color);
   border-style: ridge;
   padding: 3%;
   width: 42.5%;
@@ -66,7 +68,7 @@ body {
 #confession-times {
   position: absolute;
   display: inline-block;
-  background-color: lightgray;
+  background-color: var(--border-color);
   border-style: ridge;
   padding: 3%;
   width: 16%;
@@ -77,7 +79,7 @@ body {
 #eucharistic-adoration {
   position: relative;
   display: inline-block;
-  background-color: lightgray;
+  background-color: var(--border-color);
   border-style: ridge;
   padding: 3%;
   bottom: 65px;
@@ -98,17 +100,17 @@ body {
 
 .parish-header {
   text-align: center;
-  background-color: goldenrod;
+  background-color: var(--secondary-color);
   padding: 0.5%;
   border: 5px;
-  border-color: lightgray;
+  border-color: var(--border-color);
   border-style: ridge;
 }
 
 .parish-contact {
   display: inline-block;
   position: relative;
-  background-color: lightgray;
+  background-color: var(--border-color);
   border-style: ridge;
   padding: 3%;
   width: 42.5%;
@@ -119,7 +121,7 @@ body {
 .parish-staff {
   position: relative;
   display: inline-block;
-  background-color: lightgray;
+  background-color: var(--border-color);
   border-style: ridge;
   padding: 3%;
   bottom: 20px;

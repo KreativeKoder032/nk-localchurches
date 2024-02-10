@@ -1,0 +1,129 @@
+:root {
+  --primary-color: gray;
+}
+
+body {
+  background-color: maroon;
+}
+
+.main-heading {
+  padding: 2%;
+  background-color: gray;
+  border: 5px;
+  border-style: inset;
+  text-align: center;
+  margin-bottom: 3%
+}
+
+.header-text {
+  display: inline-block;
+}
+
+#top-left {
+  position: absolute;
+  top: 4.5%;
+  left: 12.5%;
+  display: inline-block;
+}
+#top-right {
+  position: absolute;
+  top: 4.5%;
+  right: 12.5%;
+  display: inline-block;
+}
+
+.weekly-events {
+  display: inline-block;
+  border-style: inset;
+  width: 45%;
+  height: min-content;
+  border: 5px;
+  margin-right: 5%;
+  background-color: var(--primary-color);
+  padding: 2%;
+}
+
+.events-text {
+  text-align: center;
+  background-color: goldenrod;
+  padding: 0.5%;
+  border: 5px;
+  border-color: lightgray;
+  border-style: ridge;
+}
+
+#mass-times {
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  border-style: ridge;
+  padding: 3%;
+  width: 42.5%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#confession-times {
+  position: absolute;
+  display: inline-block;
+  background-color: lightgray;
+  border-style: ridge;
+  padding: 3%;
+  width: 16%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#eucharistic-adoration {
+  position: relative;
+  display: inline-block;
+  background-color: lightgray;
+  border-style: ridge;
+  padding: 3%;
+  bottom: 65px;
+  width: 43%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.parish-info {
+  position: absolute;
+  display: inline-block;
+  width: 42.5%;
+  right: 3%;
+  border: 5px;
+  background-color: var(--primary-color);
+  padding: 2%;
+}
+
+.parish-header {
+  text-align: center;
+  background-color: goldenrod;
+  padding: 0.5%;
+  border: 5px;
+  border-color: lightgray;
+  border-style: ridge;
+}
+
+.parish-contact {
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  border-style: ridge;
+  padding: 3%;
+  width: 42.5%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.parish-staff {
+  position: relative;
+  display: inline-block;
+  background-color: lightgray;
+  border-style: ridge;
+  padding: 3%;
+  bottom: 20px;
+  width: 42.5%;
+  border-radius: 10px;
+  margin-top: 15px;
+}

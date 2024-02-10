@@ -11,22 +11,21 @@ body {
 }
 
 .main-heading {
-  padding: 2%;
   background-color: var(--primary-color);
   border: 5px;
   border-style: inset;
-  text-align: center;
   margin-bottom: 3%;
+  padding: 2%;
+  text-align: center;
 }
 
 .churches-main {
-  display: inline-block;
-  border-style: inset;
-  width: 47.5%;
   border: 5px;
+  border-style: inset;
+  display: inline-block;
+  width: 47.5%;
   margin-right: 5%;
 }
-
 
 .churches-city {
   background-color: var(--primary-color);
@@ -34,75 +33,73 @@ body {
 }
 
 .location {
-  text-align: center;
   background-color: dimgray;
-  padding: 0.5%;
   border: 5px;
   border-color: lightgray;
   border-style: ridge;
+  padding: 0.5%;
+  text-align: center;
 }
 
 .churches {
-  display: block;
-  position: relative;
   background-color: gold;
-  border-style: ridge;
-  padding: 3%;
-  height: 110px;
   border-radius: 10px;
+  border-style: ridge;
+  display: block;
+  height: 110px;
   margin-top: 15px;
+  padding: 3%;
+  position: relative;
 }
 
 .church-image {
   display: inline-block;
-  position: static;
   width: auto;
   left: 0.1%;
+  position: static;
 }
 
 .church-text {
   display: inline-block;
+  width: 72.5%;
+  top: 5%;
+  left: auto;
   padding: 1%;
   position: absolute;
-  left: auto;
-  top: 5%;
-  width: 72.5%;
 }
 
 .church-link {
-  text-align: center;
-  font-size: medium;
   color: black;
+  font-size: medium;
+  text-align: center;
   text-wrap: wrap;
 }
 
-
-
 .description {
-  position: absolute;
   display: inline-block;
-  text-align: center;
   width: 42.5%;
   right: 3%;
+  position: absolute;
+  text-align: center;
 }
 
 #quote-header {
-  padding: 0.1%;
+  background-color: var(--primary-color);
   border: 5px;
-  border-style:groove;
+  border-style: groove;
+  float: right;
   width: 100%;
   left: 5%;
   margin-bottom: 15px;
-  background-color: var(--primary-color);
-  float: right; 
+  padding: 0.1%;
 }
 
 .ccc-quotes {
-  padding: 1%;
   border: 5px;
   border-style: groove;
-  width: 105%;
-  margin-bottom: 10px;
   background-color: goldenrod;
   float: right;
+  width: 105%;
+  margin-bottom: 10px;
+  padding: 1%;
 }

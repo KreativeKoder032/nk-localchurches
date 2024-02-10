@@ -9,12 +9,12 @@ body {
 }
 
 .main-heading {
-  padding: 2%;
   background-color: var(--primary-color);
   border: 5px;
   border-style: inset;
+  margin-bottom: 3%;
+  padding: 2%;
   text-align: center;
-  margin-bottom: 3%
 }
 
 .header-text {
@@ -22,110 +22,111 @@ body {
 }
 
 #top-left {
+  display: inline-block;
   position: absolute;
   top: 4.5%;
   left: 12.5%;
-  display: inline-block;
 }
+
 #top-right {
+  display: inline-block;
   position: absolute;
   top: 4.5%;
   right: 12.5%;
-  display: inline-block;
 }
 
 .weekly-events {
-  display: inline-block;
+  background-color: var(--primary-color);
+  border: 5px;
   border-style: inset;
+  display: inline-block;
   width: 45%;
   height: min-content;
-  border: 5px;
   margin-right: 5%;
-  background-color: var(--primary-color);
   padding: 2%;
 }
 
 .events-text {
-  text-align: center;
   background-color: var(--secondary-color);
-  padding: 0.5%;
   border: 5px;
   border-color: var(--border-color);
   border-style: ridge;
+  padding: 0.5%;
+  text-align: center;
 }
 
 #mass-times {
-  display: inline-block;
-  position: relative;
   background-color: var(--border-color);
-  border-style: ridge;
-  padding: 3%;
-  width: 42.5%;
   border-radius: 10px;
+  border-style: ridge;
+  display: inline-block;
+  width: 42.5%;
   margin-top: 15px;
+  padding: 3%;
+  position: relative;
 }
 
 #confession-times {
-  position: absolute;
-  display: inline-block;
   background-color: var(--border-color);
-  border-style: ridge;
-  padding: 3%;
-  width: 16%;
   border-radius: 10px;
+  border-style: ridge;
+  display: inline-block;
+  width: 16%;
   margin-top: 15px;
+  padding: 3%;
+  position: absolute;
 }
 
 #eucharistic-adoration {
-  position: relative;
-  display: inline-block;
   background-color: var(--border-color);
+  border-radius: 10px;
   border-style: ridge;
-  padding: 3%;
+  display: inline-block;
   bottom: 65px;
   width: 43%;
-  border-radius: 10px;
   margin-top: 15px;
+  padding: 3%;
+  position: relative;
 }
 
 .parish-info {
-  position: absolute;
+  background-color: var(--primary-color);
+  border: 5px;
   display: inline-block;
   width: 42.5%;
   right: 3%;
-  border: 5px;
-  background-color: var(--primary-color);
   padding: 2%;
+  position: absolute;
 }
 
 .parish-header {
-  text-align: center;
   background-color: var(--secondary-color);
-  padding: 0.5%;
   border: 5px;
   border-color: var(--border-color);
   border-style: ridge;
+  padding: 0.5%;
+  text-align: center;
 }
 
 .parish-contact {
-  display: inline-block;
-  position: relative;
   background-color: var(--border-color);
   border-style: ridge;
-  padding: 3%;
-  width: 42.5%;
   border-radius: 10px;
+  display: inline-block;
   margin-top: 15px;
+  padding: 3%;
+  position: relative;
+  width: 42.5%;
 }
 
 .parish-staff {
-  position: relative;
-  display: inline-block;
   background-color: var(--border-color);
+  border-radius: 10px;
   border-style: ridge;
-  padding: 3%;
+  display: inline-block;
   bottom: 20px;
   width: 42.5%;
-  border-radius: 10px;
   margin-top: 15px;
+  padding: 3%;
+  position: relative;
 }

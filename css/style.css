@@ -1,12 +1,105 @@
+:root {
+  --primary-color: goldenrod;
+}
+
 * {
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
 }
 
-
-h1 {
-  color: #f00;
+body {
+  background-color: darkgreen;
 }
 
-h1:hover {
-  color: #00F;
+.main-heading {
+  background-color: var(--primary-color);
+  border: 5px;
+  border-style: inset;
+  margin-bottom: 3%;
+  padding: 2%;
+  text-align: center;
+}
+
+.churches-main {
+  border: 5px;
+  border-style: inset;
+  display: inline-block;
+  width: 47.5%;
+  margin-right: 5%;
+}
+
+.churches-city {
+  background-color: var(--primary-color);
+  padding: 2%;
+}
+
+.location {
+  background-color: dimgray;
+  border: 5px;
+  border-color: lightgray;
+  border-style: ridge;
+  padding: 0.5%;
+  text-align: center;
+}
+
+.churches {
+  background-color: gold;
+  border-radius: 10px;
+  border-style: ridge;
+  display: block;
+  height: 110px;
+  margin-top: 15px;
+  padding: 3%;
+  position: relative;
+}
+
+.church-image {
+  display: inline-block;
+  width: auto;
+  left: 0.1%;
+  position: static;
+}
+
+.church-text {
+  display: inline-block;
+  width: 72.5%;
+  top: 5%;
+  left: auto;
+  padding: 1%;
+  position: absolute;
+}
+
+.church-link {
+  color: black;
+  font-size: medium;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.description {
+  display: inline-block;
+  width: 42.5%;
+  right: 3%;
+  position: absolute;
+  text-align: center;
+}
+
+#quote-header {
+  background-color: var(--primary-color);
+  border: 5px;
+  border-style: groove;
+  float: right;
+  width: 100%;
+  left: 5%;
+  margin-bottom: 15px;
+  padding: 0.1%;
+}
+
+.ccc-quotes {
+  border: 5px;
+  border-style: groove;
+  background-color: goldenrod;
+  float: right;
+  width: 105%;
+  margin-bottom: 10px;
+  padding: 1%;
 }

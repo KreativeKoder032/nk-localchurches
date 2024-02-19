@@ -15,43 +15,11 @@ function get_day_value(inputed_date = "") {
   }
   const current_day_value = current_date.getDay();
   return days_of_the_week[current_day_value];
-}
+};
 
-function find_relative_data (church, date, data_type) {
-  let data_name = "";
-  let output_data = ``;
-  data_name += data_type.substring(0, 4).toLowerCase();
-  data_name += `-${date.substring(0,3).toLowerCase()}`;
-  fetch(church).then(data => {
-    const res_data = data.text();
-    console.log(res_data)
-    const tmp_res_container = document.createElement("div");
-    tmp_res_container.innerHTML = res_data;
-    output_data= tmp_res_container.getElementByID("data_name");
-  }).catch((err) => console.log("Can’t access " + url + " response. Blocked by browser?" + err));
-  return output_data;
-}
-
-window.onload = function testing () {
-  let webpages_list = [];
-  let current_iter = 0;
-  const webpages_html = document.getElementsByClassName("church-link");
-  for (const webpage_html of webpages_html) {
-    const link = webpage_html.getAttribute("href");
-    webpages_list.push("./"+link);
-  };
-  let current_date = get_day_value();
-  let churches = []
-  let type_iter  = 0;
-  for (let webpage of webpages_list) {
-    const church = find_relative_data(webpage, current_date, data_types[type_iter])
-    churches.push();
-  };
-  let church_info = document.getElementsByClassName("main-text-container")
-  for (let info of church_info) {
-        type_iter += 1;
-        info.innerHTML = "Happy Birthday!!!";
-  };
-}
-
-  
+function clicked(button_type) {
+  console.log(event)
+  const url_id = button_type + "-url"
+  let new_url = document.getElementById(url_id).getAttribute("href")
+  window.location.href = new_url
+};

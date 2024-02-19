@@ -1,5 +1,9 @@
 :root {
   --primary-color: goldenrod;
+  --secondary-color: gray;
+  --border-color: lightgray;
+  --background-color: darkgreen;
+  --button-text-color: goldenrod;
 }
 
 * {
@@ -7,7 +11,7 @@
 }
 
 body {
-  background-color: darkgreen;
+  background-color: var(--background-color)
 }
 
 .main-heading {
@@ -17,6 +21,30 @@ body {
   margin-bottom: 3%;
   padding: 2%;
   text-align: center;
+}
+
+
+.header-text {
+  width: 47.5%;
+  display: inline-block;
+  position: relative;
+  text-wrap: wrap;
+}
+
+#top-left {
+  display: inline-block;
+  position: relative;
+  height: 40%;
+  width: 12%;
+  margin-right: 5%;
+}
+
+#top-right {
+  display: inline-block;
+  position: static;  
+  height: 40%;
+  width: 12%;
+  margin-left: 5%;
 }
 
 .churches-main {
@@ -35,7 +63,7 @@ body {
 .location {
   background-color: dimgray;
   border: 5px;
-  border-color: lightgray;
+  border-color: var(--border-color);
   border-style: ridge;
   padding: 0.5%;
   text-align: center;
@@ -45,8 +73,8 @@ body {
   background-color: gold;
   border-radius: 10px;
   border-style: ridge;
+  border-color: var(--border-color);
   display: block;
-  height: 110px;
   margin-top: 15px;
   padding: 3%;
   position: relative;
@@ -69,16 +97,15 @@ body {
 .church-text {
   display: inline-block;
   width: 70%;
-  top: 5%;
+  top: 0.5%;
   left: auto;
-  padding: 1%;
   position: absolute;
+  text-align: center;
 }
 
 .church-link {
   color: black;
   font-size: medium;
-  text-align: center;
   text-wrap: wrap;
 }
 
@@ -98,14 +125,45 @@ body {
   width: 100%;
   margin-bottom: 15px;
   padding: 0.1%;
+  position: relative;
 }
 
 .ccc-quotes {
   border: 5px;
   border-style: groove;
-  background-color: goldenrod;
+  background-color: var(--primary-color);
   float: right;
-  width: 105%;
+  width: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 10px;
   padding: 1%;
+  position: relative
+}
+
+.button {
+  display: inline-block;
+  margin-top: 3%;
+  width: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-container {
+  background-color: var(--background-color);
+  border-color: var(--secondary-color);
+  border-radius: 10px;
+  border-style: ridge;
+  color: var(--button-text-color);
+  font-weight: bold;
+  margin-top: 2%;
+  padding: 3%;
+  text-wrap: wrap;
+}
+
+
+.hidden {
+  display: none;
+  position: absolute;
 }

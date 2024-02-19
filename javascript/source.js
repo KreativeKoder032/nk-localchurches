@@ -18,9 +18,10 @@ function get_day_value(inputed_date = "") {
 
 function find_relative_data (church, date, data_type) {
   let data = "";
+  const webpage = fetch(church).
   data += data_type.substring(0, 4).toLowerCase();
   data += `-${date.substring(0,3).toLowerCase()}`;
-  const elements = church.getElementsByID(data);
+  const elements = webpage.getElementsByID(data);
   return elements.text;
 }
 

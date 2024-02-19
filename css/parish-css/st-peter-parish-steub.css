@@ -18,21 +18,24 @@ body {
 }
 
 .header-text {
+  width: 47.5%;
   display: inline-block;
 }
 
 #top-left {
   display: inline-block;
-  position: absolute;
-  top: 4.5%;
-  left: 12.5%;
+  position: static;
+  height: 80%;
+  width: 15%;
+  margin-right: 5%;
 }
 
 #top-right {
   display: inline-block;
-  position: absolute;
-  top: 4.5%;
-  right: 12.5%;
+  position: static;  
+  height: 80%;
+  width: 15%;
+  margin-left: 5%;
 }
 
 .weekly-events {

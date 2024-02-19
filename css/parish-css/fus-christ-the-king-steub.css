@@ -65,15 +65,24 @@ body {
   position: relative;
 }
 
+#left-side-right-block {
+  display: inline-block;
+  position: relative;
+  width: 43%;
+  margin-left: 2%;
+  margin-top: 2%;
+  bottom: 46px;
+}
+
 #confession-times {
   background-color: var(--border-color);
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  width: 16%;
   margin-top: 15px;
+  width: 100%;
   padding: 3%;
-  position: absolute;
+  position: relative;
 }
 
 #eucharistic-adoration {
@@ -81,9 +90,8 @@ body {
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  top: 30px;
-  width: 43%;
   margin-top: 15px;
+  width: 100%;
   padding: 3%;
   position: relative;
 }

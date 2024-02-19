@@ -2,7 +2,7 @@
  * This is the JavaScript file for the main index page for the localchurches website.
  * The primary focus of this file is to pull in the data for the current day.
  */
-
+const days_of_the_week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const data_types = ["mass", "confession", "adoration", "rosary"]
 
 function get_day_value(inputed_date = "") {
@@ -13,7 +13,6 @@ function get_day_value(inputed_date = "") {
     current_date = new Date(inputed_date);
   }
   const current_day_value = current_date.getDay();
-  const days_of_the_week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   return days_of_the_week[current_day_value];
 }
 
@@ -25,4 +24,3 @@ function find_relative_data (church, date, data_type) {
   return elements.text;
 }
 
-import "./source.js"

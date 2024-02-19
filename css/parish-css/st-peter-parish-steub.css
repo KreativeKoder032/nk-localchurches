@@ -40,9 +40,10 @@ body {
   border: 5px;
   border-style: inset;
   display: inline-block;
-  width: 45%;
+  width: 42.5%;
   height: min-content;
-  margin-right: 5%;
+  margin-right: 2%;
+  margin-left: 1.5%;
   padding: 2%;
 }
 
@@ -55,12 +56,22 @@ body {
   text-align: center;
 }
 
+#left-side-right-block {
+  display: inline-block;
+  position: relative;
+  width: 43%;
+  margin-left: 2%;
+  margin-top: 2%;
+  bottom: 133px;
+  height: 80%;
+}
+
 #mass-times {
   background-color: var(--border-color);
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  width: 42.5%;
+  width: 43%;
   margin-top: 15px;
   padding: 3%;
   position: relative;
@@ -70,21 +81,20 @@ body {
   background-color: var(--border-color);
   border-radius: 10px;
   border-style: ridge;
-  display: inline-block;
-  width: 16%;
-  margin-top: 15px;
+  display: block;
+  width: 100%;
+  bottom: 15px;
   padding: 3%;
-  position: absolute;
+  position: relative;
 }
 
 #eucharistic-adoration {
   background-color: var(--border-color);
   border-radius: 10px;
   border-style: ridge;
-  display: inline-block;
-  bottom: 65px;
-  width: 43%;
-  margin-top: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
   padding: 3%;
   position: relative;
 }
@@ -92,11 +102,11 @@ body {
 .parish-info {
   background-color: var(--primary-color);
   border: 5px;
+  border-style: inset;
   display: inline-block;
   width: 42.5%;
-  right: 3%;
   padding: 2%;
-  position: absolute;
+  position: relative;
 }
 
 .parish-header {

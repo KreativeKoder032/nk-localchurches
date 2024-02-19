@@ -54,14 +54,23 @@ body {
 
 .church-image {
   display: inline-block;
-  width: auto;
+  width: 27%;
   left: 0.1%;
+  position: static;
+}
+
+.image {
+  display: inline-block;
+  width: 28%;
+  left: 0.1%;
+  margin-top: auto;
+  margin-bottom: auto;
   position: static;
 }
 
 .church-text {
   display: inline-block;
-  width: 72.5%;
+  width: 72%;
   top: 5%;
   left: auto;
   padding: 1%;

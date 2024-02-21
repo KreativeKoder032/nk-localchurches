@@ -1,0 +1,9 @@
+@import url("../parish-source.css");
+
+:root {
+  --primary-color: gray;
+  --secondary-color: goldenrod;
+  --border-color: lightgray;
+  --background-color: maroon;
+  --button-text-color: goldenrod;
+}

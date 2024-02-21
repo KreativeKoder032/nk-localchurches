@@ -1,11 +1,15 @@
+@import url("../style.css");
+
 :root {
-  --primary-color: goldenrod;
-  --secondary-color: gray;
+  --primary-color: gray;
+  --secondary-color: goldenrod;
   --border-color: lightgray;
+  --background-color: maroon;
+  --button-text-color: goldenrod;
 }
 
 body {
-  background-color: darkgreen;
+  background-color: var(--background-color);
 }
 
 .main-heading {
@@ -18,20 +22,24 @@ body {
 }
 
 .header-text {
+  width: 47.5%;
   display: inline-block;
 }
 
 #top-left {
   display: inline-block;
-  position: absolute;
-  top: 4.5%;
-  left: 12.5%;
+  position: static;
+  height: 80%;
+  width: 20%;
+  margin-right: 5%;
 }
+
 #top-right {
   display: inline-block;
-  position: absolute;
-  top: 4.5%;
-  right: 12.5%;
+  position: static;  
+  height: 80%;
+  width: 20%;
+  margin-left: 5%;
 }
 
 .weekly-events {
@@ -39,10 +47,11 @@ body {
   border: 5px;
   border-style: inset;
   display: inline-block;
-  width: 45%;
-  height: 560px;
-  margin-right: 5%;
+  width: 42.5%;
+  margin-right: 2%;
+  margin-left: 1.5%;
   padding: 2%;
+  position: relative;
 }
 
 .events-text {
@@ -50,6 +59,7 @@ body {
   border: 5px;
   border-color: var(--border-color);
   border-style: ridge;
+  margin-bottom: 2%;
   padding: 0.5%;
   text-align: center;
 }
@@ -59,31 +69,27 @@ body {
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  width: 42.5%;
-  margin-top: 15px;
-  padding: 3%;
-  position: relative;
-}
-
-#confession-times {
-  background-color: var(--border-color);
-  border-radius: 10px;
-  border-style: ridge;
-  display: inline-block;
-  width: 16%;
-  margin-top: 15px;
+  width: 40%;
+  right: 4%;
   padding: 3%;
   position: absolute;
 }
 
-#eucharistic-adoration {
+#left-side-left-block {
+  border-radius: 10px;
+  border-style: hidden;
+  display: inline-block;
+  width: 43%;
+  position: relative;
+}
+
+.left-block {
   background-color: var(--border-color);
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  top: 30px;
-  width: 43%;
-  margin-top: 15px;
+  width: 100%;
+  margin-bottom: 5px;
   padding: 3%;
   position: relative;
 }
@@ -91,11 +97,12 @@ body {
 .parish-info {
   background-color: var(--primary-color);
   border: 5px;
+  border-style: inset;
   display: inline-block;
-  width: 42.5%;
-  right: 3%;
+  width: 40%;
   padding: 2%;
   position: absolute;
+  text-wrap: wrap;
 }
 
 .parish-header {
@@ -112,9 +119,8 @@ body {
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  width: 42.5%;
-  bottom: 52.5px;
-  margin-top: 15px;
+  width: 40%;
+  margin-top: 2%;
   padding: 3%;
   position: relative;
 }
@@ -124,8 +130,25 @@ body {
   border-radius: 10px;
   border-style: ridge;
   display: inline-block;
-  width: 42.5%;
-  margin-top: 15px;
+  width: 40%;
+  margin-top: 2%;
+  margin-left: 1%;
   padding: 3%;
+  position: absolute;
+}
+
+.parish-buttons {
+  text-align: center;
+}
+
+.line-break {
+  color: var(--primary-color);
+  display: block;
   position: relative;
+}
+
+.highlight {
+  background-color: var(--secondary-color);
+  text-emphasis: initial;
+  font-weight: 700;
 }

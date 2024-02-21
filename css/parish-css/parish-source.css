@@ -146,3 +146,7 @@ body {
   display: block;
   position: relative;
 }
+
+.highlight {
+  background-color: var(--secondary-color);
+}

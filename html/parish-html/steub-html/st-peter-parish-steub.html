@@ -4,7 +4,7 @@
     <title>St. Peter Catholic Church - Steubenville, OH</title>
     <meta charset="utf-8">
     <link href="../../../css/parish-css/steub-css/st-peter-parish-steub.css" rel = "stylesheet"/>
-    <script src="../../../javascript/main.js"></script>
+    <script src="../../../javascript/parish-js/parish.js" defer></script>
   </head>
   <body>
     <div class="main-heading">
@@ -22,45 +22,45 @@
       <div class="left-block" id="mass-times">
         <h3>Mass Times:</h3>
           <ul>
-            <div id="mass-mon">
+            <div class="mass-mon">
               <li>Monday</li>
               <ul>
                 <li>8:00 a.m.</li>
               </ul>
             </div>
-            <div id="mass-tue">
+            <div class="mass-tue">
               <li>Tuesday</li>
               <ul>
                 <li>8:00 a.m.</li>
               </ul>
             </div>
-            <div id="mass-wed">
+            <div class="mass-wed">
               <li>Wednesday</li>
               <ul>
                 <li>8:00 a.m.</li>
                 <li>5:15 p.m.</li>
               </ul>
             </div>
-            <div id="mass-thu">
+            <div class="mass-thu">
               <li>Thursday</li>
               <ul>
                 <li>8:00 a.m.</li>
               </ul>
             </div>
-            <div id="mass-fri">
+            <div class="mass-fri">
               <li>Friday</li>
               <ul>
                 <li>8:00 a.m.</li>
               </ul>
             </div>
-            <div id="mass-sat">
+            <div class="mass-sat">
               <li>Saturday</li>
               <ul>
                 <li>8:00 a.m.</li>
                 <li>4:00 p.m. (Sunday Vigil Mass)</li>
               </ul>
             </div>
-            <div id="mass-sun">
+            <div class="mass-sun">
               <li>Sunday</li>
               <ul>
                 <li>8:00 a.m.</li>
@@ -74,13 +74,13 @@
         <div class="left-block" id="confession-times">
           <h3>Confession Times:</h3>
             <ul>
-              <div id="conf-wed">
+              <div class="conf-wed">
                 <li>Wednesday</li>
                 <ul>
                   <li>6:30 p.m. - 7:30 p.m.</li>
                 </ul>
               </div>
-              <div id="conf-sat">
+              <div class="conf-sat">
                 <li>Saturday</li>
                 <ul>
                   <li>2:00 p.m. - 3:30 p.m.</li>
@@ -91,7 +91,7 @@
         <div class="left-block" id="eucharistic-adoration">
           <h3>Eucharistic Exposition:</h3>
             <ul>
-              <div id="ador-per">
+              <div class="ador-per">
                 <li>Perpetual Adoration Chapel</li>
               </div>
             </ul>
@@ -99,7 +99,7 @@
         <div class="left-block" id="rosary">
           <h3>Communal Rosary:</h3>
             <ul>
-              <div id="rosa-sun">
+              <div class="rosa-sun">
                 <li>Sunday</li>
                 <ul>
                   <li>9:30 a.m.</li>
@@ -121,10 +121,13 @@
               <li><strong>Phone:</strong> (740) 282-7612</li>
               <li><strong>Fax:</strong> (740) 282-9263</li>
               <li><strong>Address:</strong> 425 North 4th Street Steubenville, OH 43952</li>
+
               <li><strong>Office Hours:</strong> </li>
-              <ul>
-                <li>Monday - Thursday<br>8:30 a.m. - 2:00 p.m.</li>
-              </ul>
+              <div class="offi-mon offi-tue offi-wed offi-thu">
+                <ul>
+                  <li>Monday - Thursday<br>8:30 a.m. - 2:00 p.m.</li>
+                </ul>
+              </div>
             </ul>
         </div>
         <div class="parish-staff">

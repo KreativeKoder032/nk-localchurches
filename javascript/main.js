@@ -17,7 +17,10 @@ function get_day_value(inputed_date = "") {
   return days_of_the_week[current_day_value];
 };
 
-function clicked(button_type) {
+let div = document.getElementById("contentDiv");
+div.addEventListener('click', (event) => {clicked(event);})
+
+function clicked(event) {
   console.log(event)
   const url_id = button_type + "-url"
   let new_url = document.getElementById(url_id).getAttribute("href")

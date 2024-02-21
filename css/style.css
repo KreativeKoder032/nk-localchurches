@@ -14,11 +14,11 @@ body {
   background-color: var(--background-color)
 }
 
+
 .main-heading {
   background-color: var(--primary-color);
   border: 5px;
   border-style: inset;
-  margin-bottom: 3%;
   padding: 2%;
   text-align: center;
 }
@@ -52,6 +52,7 @@ body {
   border-style: inset;
   display: inline-block;
   width: 47.5%;
+  margin-top: 3%;
   margin-right: 5%;
 }
 
@@ -110,10 +111,11 @@ body {
 }
 
 .description {
-  display: inline-block;
   width: 42.5%;
   right: 3%;
-  position: absolute;
+  margin-top: 3%;
+  float: right;
+  position: relative;
   text-align: center;
 }
 
